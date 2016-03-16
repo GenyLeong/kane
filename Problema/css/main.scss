@@ -48,7 +48,7 @@ body{
 }
 
 .mg-7{
-		@include margin(7px,7px,7px,7px);
+	@include margin(7px,7px,7px,7px);
 }
 
 .mh-14{
@@ -56,19 +56,19 @@ body{
 }
 
 .mt-7{
-		@include margin(7px,0,0,0);
+	@include margin(7px,0,0,0);
 }
 
 .mr-7{
-		@include margin(0,0,7px,0);
+	@include margin(0,0,7px,0);
 }
 
 .mt-21{
-		@include margin(21px,0,0,0);
+	@include margin(21px,0,0,0);
 }
 
 .mb-14{
-		@include margin(0,14px,0,0);
+	@include margin(0,14px,0,0);
 }
 
 .mv-56{
@@ -258,6 +258,7 @@ body{
 .card{
     border: 2px solid green;
     margin-bottom: 0px;
+    display: block !important;
     &:hover{
     	border: 2px solid $orange;
     }
@@ -343,3 +344,18 @@ a.navbar-brand:hover{
     color: $orange;
 }
 
+@media (max-width: 768px){
+h2 {
+    font-size: 5rem;
+} 
+.btn-primary{
+	    font-size: 13px;
+	    width: 100%;
+}
+}
+
+@media (max-width: 863px){
+	.fs-113{
+		font-size: 1.13rem;
+	}
+}
